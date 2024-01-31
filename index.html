@@ -61,15 +61,14 @@ body {
 }
 
 .navbar-links li a:active {
+    color: aqua;
     font-weight: 700 !important;
 }
 
 .navbar-links li a:hover {
-    background-color: chocolate;
     font-weight: 700 !important;
-    color: white;
-    border-radius: 10px;
-    height: 55px;
+    color: chocolate;
+    
    
     
 }
@@ -96,27 +95,6 @@ body {
 }
 
 
-/* Container for flexboxes */
-.row {
-  display: -webkit-flex;
-  display: flex;
-}
-
-/* Create three equal columns that sits next to each other */
-.column {
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
-  margin-left: 10px;
-  margin-right: 15px;
-}
-
-.img {
-    width: 250px;
-    height: 300px;
-}
 
 @media (max-width: 800px) {
 
@@ -161,11 +139,6 @@ body {
     margin-top: 0;
     
 }
-
-.row {
-    -webkit-flex-direction: column;
-    flex-direction: column;
-  }
 }
 
 
@@ -192,11 +165,7 @@ body {
    </div> 
 </nav>
 
-<div class="row">
-  <div class="column" style="background-color:#aaa;">Column</div>
-  <div class="column" style="background-color:#bbb;">Column</div>
-  <div class="column" style="background-color:#ccc;">Column</div>
-</div>
+
 
 </body>
 </html>
